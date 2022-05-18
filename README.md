@@ -1,5 +1,5 @@
 ### Real-time classification of hand gestures of "rock, paper, scissors" game
-This project contains the code to implement a CNN that can classify the hand gestures of "rock, paper, scissors" game in real-time.  
+This project contains the code to implement a CNN that can classify the hand gestures of "rock, paper, scissors" game in real time.  
 The optimal structure was find after 33 epochs, with a validation accuracy of 0.9958 and a validation loss of 0.0164.  
 The classification is done using the webcam of the user.  
 
