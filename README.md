@@ -14,7 +14,7 @@ The classification is done using the webcam of the user.
 
 ### Costume dataset
 The net was trained on a costum dataset that conatains 36084 images, in which each one has a size of 300x300x3 and a different background.  
-The images were splitted in a train set, validation test and test set with a 28764, 5856 and 1464 images respectively.
+The images were splitted in a train set, validation test and test set with a 28764, 5856 and 1464 images respectively.  
 The folder structure is as follows:
 ```
 hand-dataset [36084]  
