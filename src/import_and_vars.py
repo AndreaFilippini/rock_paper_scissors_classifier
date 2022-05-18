@@ -1,4 +1,4 @@
-#import dei vari moduli utilizzati per l'implementazione del progetto
+#import of the modules for this project
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
