@@ -11,7 +11,7 @@ cap.set(4, 480)
 detector = HandDetector(detectionCon=0.75)
 
 #get class names from the train generator
-#classNames = list(train_generator.class_indices.keys())
+classNames = list(train_generator.class_indices.keys())
 
 #parameters to optimize the code and improve the prediction
 confVal = 30
@@ -65,7 +65,7 @@ with tf.device("/device:GPU:0"):
         cv2.imshow("Image", img)
 
         #press 'q' to close the application
-        if cv2.waitKey(1) == 113:
+        if cv2.waitKey(1) == ord('q'):
             break; 
 
 #release all the resources
